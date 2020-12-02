@@ -3,11 +3,7 @@
 V0.7
 
 
-## Installation Instructions
-
-Using PIP environment, the anonymization tool will automatically install and setup all the necessary dependencies. 
-
-Be sure to set and export the variables in your virtual environemnt. 
+## General definitions
 
 ### Expected Travels Format
 
@@ -29,17 +25,6 @@ Waypoint is a geolocation container that can include additional details such as 
 
 #### Places
 Place is defined as a location where a user spends significant amounts of time, and often includes a meaningful real-world correspondence. Example Places include user-specific locations such as home and office, or public areas such as shopping malls and parks. 
-
-### Database Settings
-
-The software will automatically load the settings and connect to the DB according to the following environment variables:
-
-	DB_USERNAME
-	DB_HOST
-	DB_PORT
-	DB_NAME
-
-The anonymization tool will automatically revert to development configuration if no such settings can be found in the enviroment. 
 
 ### Database Format
 
@@ -115,7 +100,22 @@ The software expects the following structure for the input database:
 - last_dwell_endtime bigint,
 - place_reverse_goecode_id bigint
 
+## Installation Instructions
 
+Using PIP environment, the anonymization tool will automatically install and setup all the necessary dependencies. 
+
+Be sure to set and export the variables in your virtual environemnt. 
+
+### Database Settings
+
+The software will automatically load the settings and connect to the DB according to the following environment variables:
+
+	DB_USERNAME
+	DB_HOST
+	DB_PORT
+	DB_NAME
+
+The anonymization tool will automatically revert to development configuration if no such settings can be found in the enviroment. 
 
 ### Anonymization Settings
 
