@@ -1,6 +1,6 @@
 # Anonymization Tool
 
-V0.3
+V0.7
 
 
 ## Installation Instructions
@@ -36,7 +36,7 @@ The argument **installation_id** is optional.
 In cases you wish to anonymize individual records based on the installation_id, be sure to provide that identifier upon startup. 
 When no **installation_id** is provided, the software will automatically assume a global dataset anonymization mechanism.
 
-To run the tool execute:
+To run the tool go to **/src** directory and execute:
 
     pipenv shell
     python main.py [installation_id]
