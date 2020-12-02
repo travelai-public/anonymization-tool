@@ -24,23 +24,23 @@ The anonymization tool will automatically revert to development configuration if
 
 The software expects the following structure for the input database:
 
-### public.segments
+#### public.segments
 installation_id,
 ...
 
-### public.routes
+#### public.routes
 installation_id,
 ...
 
-### public.gis_legs
+#### public.gis_legs
 installation_id,
 ...
 
-### public.waypoints
+#### public.waypoints
 installation_id,
 ...
 
-### public.places
+#### public.places
 installation_id,
 ...
 
