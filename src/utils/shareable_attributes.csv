@@ -1,0 +1,10 @@
+dwells,id,installation_id,start_ts,end_ts,duration,place_id,location,location_accuracy,activity_type,label,dwell_loc_strength, origin_of_route, destination_of_route
+gaps,id,installation_id,start_ts,end_ts,duration,max_gap,distance,pregap_loc,postgap_loc,gaptype
+gis_legs,id,installation_id,start_ts,end_ts,transport_mode,distance,duration,match_confidence,route_id,first_location,last_location
+legs,id,installation_id,start_ts,end_ts,transport_mode,speed_mean,speed_validmax,distance,duration,location_coverage,route_id,first_location,last_location
+places,timestamp,id,installation_id,location,dwelltime_sum,dwelltime_percentage,dwelltime_rank,label,placeloc_strength,first_dwell_starttime,last_dwell_endtime,place_reverse_goecode_id
+public_transit_details,linename,start_station,end_station,line_id,start_station_location,end_station_loc,parent_gisleg_id,installation_id
+reverse_geocode,installation_id,parent_place,source_location,match_location,match_distance,country,county,city,district,postalcode,street,housenumber,id
+routes,id,installation_id,start_ts,end_ts,distance,gis_distance,duration,start_place,end_place,start_dwell,end_dwell,data_quality,match_confidence,segment_id
+segments,id,installation_id,start_ts,end_ts,routes_count,legs_count,gaps_count,start_place_id,end_place_id,gislegs_count
+waypoints,installation_id,route_id,gisleg_id,timestamp,transport_mode,location,accuracy,vaccuracy,speed,provider
