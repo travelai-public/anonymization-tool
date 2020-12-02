@@ -20,6 +20,26 @@ The software will automatically load the settings and connect to the DB accordin
 
 The anonymization tool will automatically revert to development configuration if no such settings can be found in the enviroment. 
 
+### Database Format
+
+The software expects the following structure for the input database:
+
+# public.segments
+
+
+# public.routes
+
+
+# public.gis_legs
+
+
+# public.waypoints
+
+
+# public.places
+
+
+
 ### Anonymization Settings
 
 The anonymization setting can be exported in the following environment variables.
